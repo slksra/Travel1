@@ -1,0 +1,57 @@
+body{
+  text-align:center;
+  background-color: hsl(180,98%,31%);
+}
+p{
+  font-family: 'Comforter Brush', cursive;
+  color: hsl(47, 98%, 50%);
+  font-size:4rem;
+}
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin:  50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: 'Heebo', sans-serif;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color: white ;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+button:hover{
+  background-color:black;
+  border:1px solid white;
+  color:white;
+}

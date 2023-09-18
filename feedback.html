@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tourest - Explore the World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Heebo:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/feedback-form-style.css" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <p>Feedback Form</p>
+    <form id="form" onsubmit="myFunction()">
+      <div class="form-control">
+        <label for="name" id="label-name">
+          Name
+        </label>
+        <input required type="text" id="name" placeholder="Enter your name"/>
+      </div>
+      <div class="form-control">
+        <label for="email" id="label-email">
+          Email
+        </label>
+        <input required type="email" id="email" placeholder="Enter your email"/>
+      </div>
+      <div class="form-control">
+        <label for="price" id="label-price">
+          Value for money?
+        </label>
+        <label for="recommend-1">
+          <input type="radio" name="recommend" id="recommend-1">Yes</input>
+        </label>
+        <label for="recommend-2">
+          <input type="radio" name="recommend" id="recommend-2">No</input>
+        </label>
+      </div>
+      <div class="form-control">
+          <label for="comment">
+              Any comments or suggestions
+          </label>
+          <textarea name="comment" id="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
+      <button type="submit" value="submit">
+          Submit
+      </button>
+    </form>
+    <script>
+      function myFunction() {
+        alert("Submitted Succesfully!!");
+      }
+    </script>
+  </body>
+</html>
